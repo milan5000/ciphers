@@ -2,3 +2,5 @@
 *.out
 *.o
 .vscode
+encrypted.txt
+decrypted.txt
