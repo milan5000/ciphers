@@ -172,7 +172,7 @@ int main() {
                 }
             }
 
-            printf("Calculated shift: %d (X^2 = %e)\n", best_chi_sq_shift, best_chi_sq);
+            printf("Calculated shift: %d (X^2 = %e)\n", (26 - best_chi_sq_shift), best_chi_sq);
 
             rewind(in_ptr);
 
