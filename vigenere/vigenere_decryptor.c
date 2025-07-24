@@ -34,10 +34,10 @@ int main() {
          3853/40000.,   128/40000.,
     };
 
-    int param_avail;
-    printf("SELECT MODE\n");
-    printf("(1) Decrypt with keyword (2) Crack with keyword length (3) Crack by Kasiski examination \n");
-    scanf("%d", &param_avail);
+    int param_avail = 1;
+    //printf("SELECT MODE\n");
+    //printf("(1) Decrypt with keyword (2) Crack with keyword length (3) Crack by Kasiski examination \n");
+    //scanf("%d", &param_avail);
 
     if (param_avail == 1) {
         char keyword[26];
